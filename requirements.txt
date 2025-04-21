@@ -12,6 +12,7 @@ motor
 pillow
 psutil
 py-tgcalls==0.9.7
+pymongo[srv]==3.11
 pykeyboard
 pyrofork
 python-dotenv
