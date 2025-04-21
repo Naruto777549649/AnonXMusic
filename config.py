@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/All_anime_shonen_official")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/animaction_world_in_2025")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,12 +62,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
-
+STRING1 = getenv("STRING_SESSION", "BQGIIi4ABUYwCRXGVbi_RQME5DG2ASqb58GjwGA-JDGwzs32gxMwEvkOzMNS5kgykYAcppjUDWCyy7Z2y6wt2XGwiOtI0b6psWYuQSU2WQwsRIEAMiYcKy_VV5TQae5Hnbozbwg16gSq4c8k3M5xLpht3YJ2TU-WQvT9BQ1tHx9AzhwF8Gw65MJK5MmsIJBYCp1CuDWgFxUZvr7aohrvDnA4r3cHt8balKNe2I8Nn70FyVtYIxRhbHBeUlesoij21OC1p1OuocSjoiJStdnfHoOto_zme3dXp7VgDKDfeJMpqG7bsu5Nm7OZd5mFioe7kd3oO-3RoYL_tQNgXwX8Tj4X3JSAAAAAGiZpxEAA")
+# STRING2 = getenv("STRING_SESSION2", None)  # Not required
+# STRING3 = getenv("STRING_SESSION3", None)  # Not required
+# STRING4 = getenv("STRING_SESSION4", None)  # Not required
+# STRING5 = getenv("STRING_SESSION5", None)  # Not required
 
 BANNED_USERS = filters.user()
 adminlist = {}
@@ -102,6 +101,9 @@ def time_to_seconds(time):
 
 DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 
+
+SUPPORT_CHANNEL = "https://t.me/All_anime_shonen_official"
+SUPPORT_CHAT = "https://t.me/animaction_world_in_2025"
 
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
