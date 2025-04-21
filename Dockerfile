@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM nikolaik/python-nodejs:python3.11-nodejs19
 
 # Install ffmpeg and update OpenSSL (if needed)
 RUN apt-get update \
