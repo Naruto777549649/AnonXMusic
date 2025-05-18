@@ -101,8 +101,8 @@ def time_to_seconds(time):
 DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 
 
-SUPPORT_CHANNEL = "https://t.me/All_anime_shonen_official"
-SUPPORT_CHAT = "https://t.me/animaction_world_in_2025"
+SUPPORT_CHANNEL = "https://t.me/mikasa_x_support"
+SUPPORT_CHAT = "https://t.me/mikasa_xmusic"
 
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
